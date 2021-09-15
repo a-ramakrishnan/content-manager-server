@@ -1,12 +1,51 @@
 [
   {
-    "title": "Testing redirect again",
+    "title": "Creating Resource to test Status",
+    "description": "Test Status",
+    "link": "Status",
+    "priority": "3 - High",
+    "timeToFinish": "1540",
+    "createdAt": "2021-09-15T12:58:59.623Z",
+    "id": "1631710739623",
+    "status": "inactive",
+    "lastDeActivationTime": "2021-09-15T16:37:29.999Z",
+    "lastActivationTime": "2021-09-15T16:22:40.854Z"
+  },
+  {
+    "title": "Editing Reusable Components - Updated",
+    "description": "Reusable - Updated",
+    "link": "Reusable",
+    "priority": "3 - High",
+    "timeToFinish": "10",
+    "createdAt": "2021-09-15T02:43:58.864Z",
+    "id": "1631673838864",
+    "status": "inactive",
+    "lastDeActivationTime": "2021-09-15T14:06:58.299Z",
+    "lastActivationTime": "2021-09-15T13:59:56.733Z"
+  },
+  {
+    "title": "Post path change",
+    "description": "Path change",
+    "link": "Path",
+    "priority": "3 - High",
+    "timeToFinish": "200",
+    "createdAt": "2021-09-14T17:01:22.771Z",
+    "id": "1631638882771",
+    "status": "inactive",
+    "lastDeActivationTime": "2021-09-15T16:13:07.705Z",
+    "lastActivationTime": "2021-09-15T16:11:01.685Z"
+  },
+  {
+    "title": "Testing redirect again and again - Updated again",
     "description": "again",
     "link": "again",
-    "priority": "3 - High",
-    "timeToFinish": "100",
+    "priority": "4 - Urgent",
+    "timeToFinish": "1000",
     "createdAt": "2021-09-14T13:08:11.168Z",
-    "id": "1631624891168"
+    "id": "1631624891168",
+    "status": "active",
+    "lastDeActivationTime": "2021-09-15T13:00:26.276Z",
+    "lastActivationTime": "2021-09-15T16:38:10.642Z"
   },
   {
     "title": "Test1",
@@ -15,7 +54,10 @@
     "priority": "1 - Low",
     "timeToFinish": "10",
     "createdAt": "2021-09-14T13:03:46.302Z",
-    "id": "1631624626302"
+    "id": "1631624626302",
+    "status": "inactive",
+    "lastDeActivationTime": "2021-09-15T13:00:26.276Z",
+    "lastActivationTime": "2021-09-15T14:08:39.183Z"
   },
   {
     "id": "101010101010",
@@ -24,8 +66,10 @@
     "link": "https://google.com",
     "priority": 3,
     "timeToFinish": 120,
-    "status": "active",
-    "createdAt": "9/Sep/2021"
+    "status": "inactive",
+    "createdAt": "9/Sep/2021",
+    "lastDeActivationTime": "2021-09-15T13:00:26.276Z",
+    "lastActivationTime": "2021-09-15T14:08:39.183Z"
   },
   {
     "id": "101010101012",
@@ -35,7 +79,9 @@
     "priority": 2,
     "timeToFinish": 180,
     "status": "inactive",
-    "createdAt": "19/Sep/2021"
+    "createdAt": "19/Sep/2021",
+    "lastDeActivationTime": "2021-09-15T13:00:26.276Z",
+    "lastActivationTime": "2021-09-15T14:08:39.183Z"
   },
   {
     "id": "101010101011",
@@ -45,7 +91,9 @@
     "priority": 1,
     "timeToFinish": 240,
     "status": "inactive",
-    "createdAt": "9/Oct/2021"
+    "createdAt": "9/Oct/2021",
+    "lastDeActivationTime": "2021-09-15T13:00:26.276Z",
+    "lastActivationTime": "2021-09-15T14:08:39.183Z"
   },
   {
     "id": "101010101013",
@@ -55,7 +103,9 @@
     "priority": 3,
     "timeToFinish": 60,
     "status": "inactive",
-    "createdAt": "19/Oct/2021"
+    "createdAt": "19/Oct/2021",
+    "lastDeActivationTime": "2021-09-15T13:00:26.276Z",
+    "lastActivationTime": "2021-09-15T14:08:39.183Z"
   },
   {
     "id": "101010101014",
@@ -65,7 +115,9 @@
     "priority": 2,
     "timeToFinish": 360,
     "status": "inactive",
-    "createdAt": "19/Nov/2021"
+    "createdAt": "19/Nov/2021",
+    "lastDeActivationTime": "2021-09-15T13:00:26.276Z",
+    "lastActivationTime": "2021-09-15T14:08:39.183Z"
   },
   {
     "title": "a",
@@ -74,7 +126,10 @@
     "priority": "2",
     "timeToFinish": "10",
     "createdAt": "2021-09-14T12:53:33.065Z",
-    "id": "1631624013065"
+    "id": "1631624013065",
+    "status": "inactive",
+    "lastDeActivationTime": "2021-09-15T13:00:26.276Z",
+    "lastActivationTime": "2021-09-15T14:08:39.183Z"
   },
   {
     "title": "a",
@@ -83,7 +138,10 @@
     "priority": "2",
     "timeToFinish": "10",
     "createdAt": "2021-09-14T12:55:58.691Z",
-    "id": "1631624158691"
+    "id": "1631624158691",
+    "status": "inactive",
+    "lastDeActivationTime": "2021-09-15T13:00:26.276Z",
+    "lastActivationTime": "2021-09-15T14:08:39.183Z"
   },
   {
     "title": "d",
@@ -92,6 +150,9 @@
     "priority": "1 - Low",
     "timeToFinish": "20",
     "createdAt": "2021-09-14T12:57:01.966Z",
-    "id": "1631624221966"
+    "id": "1631624221966",
+    "status": "inactive",
+    "lastDeActivationTime": "2021-09-15T13:00:26.276Z",
+    "lastActivationTime": "2021-09-15T14:08:39.183Z"
   }
 ]
