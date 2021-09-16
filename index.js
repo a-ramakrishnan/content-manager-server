@@ -84,11 +84,21 @@ app.patch("/api/resources/:id", (req, res) => {
         }
         resources[index].status = "active"
         resources[index].lastActivationTime = new Date()
-    } else if (req.body.status === "inactive" && req.body.deactivate === true) {
+    } else if (req.body.status === "completed" && req.body.completed === true) {
+        resources[index].status = "completed"
+        resources[index].timeToFinish = '0'
+        resources[index].lastDeActivationTime = new Date()
+    }else if (req.body.status === "inactive" && req.body.deactivate === true) {
         resources[index].status = "inactive"
         resources[index].lastDeActivationTime = new Date()
     }else {
-        resources[index] = req.body
+        if (resources[index].status === "active") {
+            return res.status(200).send("Cannot update the active resource")
+        } else {
+            resources[index] = req.body
+            if (resources[index].timeToFinish > 0)
+                resources[index].status = "inactive"
+        }
     }
 
     fs.writeFile(pathToFile, JSON.stringify(resources, null, 2), (error) => {
